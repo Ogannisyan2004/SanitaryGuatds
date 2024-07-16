@@ -1,2 +1,2 @@
-# SanitaryGuatds.ru
+# SanitaryGuards.ru
 SanitaryGuards on GitHub
