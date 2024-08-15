@@ -4,10 +4,26 @@
     vertical-align: middle;
 }
 
+
 .navbar-brand {
     display: flex;
     align-items: center;
 }
+
+.navbar-text {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 767px) {
+    .navbar-brand {
+      justify-content: space-between;
+    }
+
+    .navbar-text {
+      font-size: 14px;
+    }
+  }
 
 .main-block {
     background: url(image/home.jpg) center top no-repeat fixed
@@ -310,3 +326,4 @@
 .modal-open .icon-bar {
     display: none;
 }
+
